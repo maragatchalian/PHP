@@ -30,5 +30,23 @@ print("It worked!" ."<br>");
 }
 
 #3 Printf
-printf('Bond. James Bond. %03d.', 7);
+printf('Bond. James Bond. %03d.', 7 ."<br>");
+
+//print() and vardump()
+$a = array('name' => 'Fred', 'age' => 35, 'wife' => 'Wilma');
+print_r($a);
+
+
+//strlen() function
+
+$string = 'Hello, world';
+$length = strlen($string); 
+
+echo "$length" . "<br>"; //prints the lenth of the string
+
+
+
+
+
+
 
