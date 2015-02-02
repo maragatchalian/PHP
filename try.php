@@ -1,3 +1,8 @@
+<html>
+<head>
+<title> Chapter 4 Examples </title>
+</head>
+<body>
 <?php
 
 //Double Quotes
@@ -44,9 +49,27 @@ $length = strlen($string);
 
 echo "$length" . "<br>"; //prints the lenth of the string
 
+// $str3 is "Programming PHP"
 
 
+$title = "      Programming PHP    \n";
+$str1 = ltrim($title); 
+$str2 = rtrim($title);
+$str3 = trim($title);
 
 
+echo ("$str1, $str2, $$tr3" ."<br>" ."<br>" );
+
+//Changing Strings
+echo  ("Changing Case" ."<br>" ."<br>");
+$string1 = "FRED flintstone";
+$string2 = "barney rubble";
+print(strtolower($string1 ."<br>"));
+print(strtoupper($string1 ."<br>"));
+print(ucfirst($string2 ."<br>"));
+print(ucwords($string2 ."<br>"));
 
 
+?> 
+</body>
+</html>
